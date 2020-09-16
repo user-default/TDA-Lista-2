@@ -1,0 +1,14 @@
+
+
+ano = int(input("Entre com os digitos referentes ao ano escolhido para determinar se ele é bissexto.\n\n"))
+
+aux = ano % 4
+
+
+if aux == 0:
+
+   print("O ano de", ano, "é bissexto.\n")
+
+else:
+
+   print("O ano de", ano, "não é bissexto.\n")
