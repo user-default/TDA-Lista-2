@@ -1,14 +1,20 @@
+#include <stdio.h>
 
+int main()
+{
+        short ano = 0;
+        printf("Programa para determinar se o ano passado por argumento e bisse$
+        scanf("%d", &ano);
 
-ano = int(input("Entre com os digitos referentes ao ano escolhido para determinar se ele é bissexto.\n\n"))
+        if (ano % 4 == 0)
+        {
+                printf("%d e um ano bissexto!\n", ano);
+        }
+        else
+        {
+                printf("%d nao e um ano bissexto!\n", ano);
+        }
 
-aux = ano % 4
+        return 0;
+}
 
-
-if aux == 0:
-
-   print("O ano de", ano, "é bissexto.\n")
-
-else:
-
-   print("O ano de", ano, "não é bissexto.\n")
